@@ -25,7 +25,7 @@ fetch("https://api.api-ninjas.com/v1/quotes?category=happiness", {
     return res.json();
   })
   .then((data) => {
-    console.log(data);
+    // console.log(data);
     document.getElementById("quote").innerHTML += `
              <p>"${data[0].quote}"</p>
              <p>-${data[0].author}</p>
