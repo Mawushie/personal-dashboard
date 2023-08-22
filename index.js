@@ -13,7 +13,7 @@ fetch(
     document.getElementById("author").textContent = `By: Dodi Achmad`;
   });
 
-fetch("https://api.api-ninjas.com/v1/quotes?category=happiness", {
+fetch("https://api.api-ninjas.com/v1/quotes?category=inspirational", {
   headers: {
     "X-Api-Key": "wHR0cRFD7lcOo744OmsDJg==H1uT44MbAXHJ9Fw1",
   },

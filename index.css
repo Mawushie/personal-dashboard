@@ -38,6 +38,9 @@ div#quote {
 
 div#quote > p {
   margin-top: 0;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
 }
 
 div#quote-top {
